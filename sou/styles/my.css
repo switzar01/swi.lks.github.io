@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=EduVICWANTBeginner&display=swap);
+
+body {
+    font-family: EducVICcWA NT Beginner, serif;
+    background: linear-gradient(90deg, #0011ff 0%, #c002ff 100%);
+}
+p {
+    color: rgb(132, 8, 77);;
+}
+
+.nav-link {
+    color: rgb(121, 111, 151);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(121, 111, 151);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(121, 111, 151);
+}
+
+.sideb {
+    color: rgb(4, 51, 83);
+    background: linear-gradient(270deg, #e69aff 0%, #c002ff 100%);
+}
+.card {
+    background: linear-gradient(270deg, #3680da 0%, #014eba 100%);
+}
+.slidett,
+.footert {
+    color: rgb(132, 8, 77);
+    margin: auto auto;
+}
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+footer {
+    background: #2e39cc;
+}
+.medial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calla {
+    animation: myAnim 2s ease 0s  1000 normal forwards;
+}
+@keyframes myAnim {
+    0%,
+    100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+    }
+   
+    15% {
+    transform: translateX(-30px) rotate(-6deg);
+    }
+   
+    30% {
+    transform: translateX(15px) rotate(6deg);
+    }
+   
+    45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+    }
+   
+    60% {
+    transform: translateX(9px) rotate(2.4deg);
+    }
+   
+    75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+    }
+   }
+.btn-outline-primary {
+    background-color: #0813b0;
+}
